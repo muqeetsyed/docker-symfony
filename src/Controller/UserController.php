@@ -79,4 +79,8 @@ final class UserController extends AbstractController
             'form' => $form,
         ]);
     }
+
+    public function  test(int $a) : string {
+        return $a;
+    }
 }
