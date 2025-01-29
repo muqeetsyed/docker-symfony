@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcb2fe7-bb83-40ea-84ca-f0b9dd1ce122" name="Changes" comment="" />
+    <list default="true" id="0bcb2fe7-bb83-40ea-84ca-f0b9dd1ce122" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/psalm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/psalm.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
@@ -145,6 +155,22 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
       <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/psalm/plugin-symfony" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/spatie/array-to-xml" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/advanced-json-rpc" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/language-server-protocol" />
+      <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/vimeo/psalm" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -159,20 +185,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/moeen/Documents/Muqeet/Learning/projects/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#1 on composer-update",
+    "last_opened_file_path": "/home/moeen/Documents/Muqeet/Learning/projects/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -193,16 +219,28 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PS-243.22562.164" />
-        <option value="bundled-php-predefined-a98d8de5180a-7980c7aaca61-com.jetbrains.php.sharedIndexes-PS-243.22562.164" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.115" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.115" />
+        <option value="php-doctrine_collections-5543a6ebd44f-eb3532f9" />
+        <option value="php-doctrine_common-5543a6ebd44f-f4040ce8" />
+        <option value="php-doctrine_dbal-5543a6ebd44f-045582c6" />
         <option value="php-doctrine_dbal-5543a6ebd44f-3aaabdbf" />
+        <option value="php-doctrine_doctrine_bundle-5543a6ebd44f-608f84bf" />
         <option value="php-doctrine_inflector-5543a6ebd44f-c145f861" />
+        <option value="php-doctrine_orm-5543a6ebd44f-43d35e54" />
         <option value="php-doctrine_orm-5543a6ebd44f-577e54b5" />
         <option value="php-egulias_email_validator-5543a6ebd44f-f8e7eb7f" />
+        <option value="php-ezyang_htmlpurifier-5543a6ebd44f-647dbea5" />
         <option value="php-league_commonmark-5543a6ebd44f-f1aa3424" />
         <option value="php-masterminds_html5-5543a6ebd44f-5d9de242" />
+        <option value="php-monolog_monolog-5543a6ebd44f-353c52f0" />
         <option value="php-nette_utils-5543a6ebd44f-02ca1837" />
         <option value="php-nikic_php_parser-5543a6ebd44f-9a2e7ede" />
+        <option value="php-paragonie_random_compat-5543a6ebd44f-6c3ba42c" />
+        <option value="php-phpspec_prophecy-5543a6ebd44f-1cc44c92" />
+        <option value="php-phpunit_php_token_stream-5543a6ebd44f-baeb9f9e" />
+        <option value="php-sensio_framework_extra_bundle-5543a6ebd44f-19d876c0" />
+        <option value="php-swiftmailer_swiftmailer-5543a6ebd44f-9298acfb" />
         <option value="php-symfony_css_selector-5543a6ebd44f-b048f1d6" />
         <option value="php-symfony_dom_crawler-5543a6ebd44f-6096c64c" />
         <option value="php-symfony_flex-5543a6ebd44f-d9b3138a" />
@@ -211,6 +249,7 @@
         <option value="php-symfony_mailer-5543a6ebd44f-2eb20303" />
         <option value="php-symfony_mime-5543a6ebd44f-d9f38a27" />
         <option value="php-symfony_monolog_bridge-5543a6ebd44f-5494f911" />
+        <option value="php-symfony_monolog_bundle-5543a6ebd44f-26ee5855" />
         <option value="php-symfony_monolog_bundle-5543a6ebd44f-e25dade4" />
         <option value="php-symfony_property_access-5543a6ebd44f-62fb3a29" />
         <option value="php-symfony_property_info-5543a6ebd44f-7ad73549" />
@@ -232,7 +271,9 @@
       <updated>1734668645162</updated>
       <workItem from="1734668646427" duration="3351000" />
       <workItem from="1735194385476" duration="6285000" />
-      <workItem from="1735203762482" duration="715000" />
+      <workItem from="1735203762482" duration="5452000" />
+      <workItem from="1735310799552" duration="3697000" />
+      <workItem from="1738139845660" duration="5677000" />
     </task>
     <servers />
   </component>
